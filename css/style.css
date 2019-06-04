@@ -10,25 +10,23 @@ body {
   font-size: 10px;
   left: 50%;
   top: 50%;
-  padding-top: 15%;
   position: absolute;
   transform: translate(-50%, -50%);
 }
 
 .container {
   background-color: #D3D3D3;
-  border: 0px;
   text-align: left;
   width: 80%;
   margin: 0%;
   padding: 0%;
-  padding-top: 22%;
 }
 
 nav {
   background-color: black;
   position: center;
   color: black;
+  padding-top: 5px;
   width: 100%;
 }
 
@@ -39,10 +37,14 @@ nav {
 
 h1 {
   font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h3{
   font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
@@ -60,9 +62,9 @@ h1:hover{
 }
 
 .content{
-  width: 60%;
+  width: 80%;
   margin: 0 solid #111111;
-  padding: 3%;
+  padding-left: 3%;
   display: inline-block;
 }
 
@@ -75,5 +77,6 @@ i:hover{
   float: right;
   display: inline-block;
   padding: 7%;
+  padding-top: 1%;
   margin: auto;
 }
