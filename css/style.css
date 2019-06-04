@@ -26,7 +26,9 @@ nav {
   background-color: black;
   position: center;
   color: black;
-  padding-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 3%;
   width: 100%;
 }
 
@@ -48,16 +50,21 @@ h3{
 }
 
 
-h1{color: Black;}
-h1:hover{
-  color: Red;
+.location{color: Black;}
+.location:hover{
+  color: Grey;
+}
+
+i{color: Black;}
+i:hover{
+  color: Grey;
 }
 
 .restaurant-list {
   color: #111111;
   width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   display: inline-block;
 }
 
@@ -65,18 +72,17 @@ h1:hover{
   width: 80%;
   margin: 0 solid #111111;
   padding-left: 3%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: inline-block;
 }
 
-i{color: Black;}
-i:hover{
-  color: Red;
-}
 
 .arrow{
   float: right;
   display: inline-block;
   padding: 7%;
-  padding-top: 1%;
+  padding-top: 5%;
+  padding-bottom: 5%
   margin: auto;
 }
